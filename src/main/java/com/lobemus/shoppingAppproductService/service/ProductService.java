@@ -34,7 +34,7 @@ public class ProductService {
         productRepository.save(product);
 
         // {} is placeholder coming from Slf4j
-        log.info("Product {} is saved!", product.getId() );
+        log.info("Product {} is saved!", product.getId());
     }
 
     public List<ProductResponse> getAllProducts()
